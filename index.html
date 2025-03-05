@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+    <main>
+        <canvas id="drawingCanvas"></canvas>
+
+        <section id="options">
+
+            <h1>Let's draw!</h1>
+            <h2>pick a color:</h2>
+            <input type="color" id="drawColor">
+            <h2>change brush size: </h2>
+            <input type="range" min="1" max="50" id="penSize" value="5">
+            <button id="printBtn"> SAVE IMAGE </button>
+            <button id="resetBtn"> RESET </button>
+        </section>
+    </main>
+</body>
+
+</html>
